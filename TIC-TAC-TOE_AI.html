@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Isaiah - Automatic Fish Feeder </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Isaiah Clemons</span>
+								</a>
+								<div>
+									<a href="index.html" class="button primary">Home</a>
+								</div>
+
+
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Tic-Tac-Toe</h1>
+							<hr />
+							<span class = "image right">
+								<video width="400" height = "400" controls = true autoplay = true muted = true>
+									<source src="video/Tic Tac Toe short.mp4" type="video/mp4">
+								</video>
+							</span>
+
+							<B>Intro</B>
+							<p> I built an unbeatable Tic-Tac-Toe AI on a Xilinx ZYBO board in C. I also created drivrs for the interrupts, touchscreen, buttons, and switches also in C.
+							</p>
+
+							<p> <b>Summary</b>
+								
+							<span class="image left"><img src="images/IMG_0528.JPG" alt="" /></span>
+							
+							<p> I created a Tic-Tac-Toe AI using a minimax algorithm to compute and return the score of the available moves. The algorithm computes either the maximum score (the best) and the minimum score (the worst). Using this computation
+								the best move can be returned and shown on the screen. 
+								
+
+
+								<p>This game also includes both Moore and Mealy state machines to correctly account for possible states that the game can be in, for easy to edit and easy to read code. </p>
+								<p>
+								I also created drivers for the buttons and switches for another programmer to use shoudl they want to interface with aspects of the board. This was done by reading docuemtnation for bit locations of the buttons and switches, and 
+								abstracting reading and writing register bits into easy to call functions. 
+
+								I also created a touchscreen driver that abstracts touchscreen data into easy to use functions.
+							</p>
+
+							</p>
+							</p>
+
+							<p>
+								<b>Future Improvement/Iterations</b>
+							</p>
+							<p>
+								Future iterations of this might include an option for Player vs Player gameplay. Using a similar framework of the minimax algorithm similar games such as connect four, battle ship or something might also be possible.
+							</p>
+
+							<hr />
+						</div>
+					</div>
+
+				<!-- Footer -->
+					
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
