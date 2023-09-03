@@ -2,9 +2,7 @@
 
 Portfolio for Isaiah Clemons.
 
-To view simply use this link: 
-
-[isaiahclemons7.github.io](isaiahclemons7.github.io)
+To view simply use [this](isaiahclemons7.github.io) link: 
 
 Several projects that I have worked on either personal or for school. 
 
